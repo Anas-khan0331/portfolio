@@ -1,28 +1,27 @@
 import {
-  mobile,
   backend,
+  carrent,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  figma,
+  foreverCommerce,
+  git,
+  gold1,
+  gold2,
+  html,
+  hustlerCommerce,
+  javascript,
+  jobit,
+  mobile,
+  mongodb,
+  nikeStore,
+  nodejs,
+  qrMenu,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
   tripguide,
-  threejs,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +45,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MERN Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Applications",
     icon: creator,
   },
 ];
@@ -71,10 +70,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -96,10 +91,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -108,60 +100,56 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "InternShip",
+    company_name: "EasyStay",
+    icon: html,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2021 - August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learn Languages important for Web-Development",
+      "Learn Html,Css,Bootstrap",
+      "Learn to develop PSD's and static Web Pages",
+      "Built many Websites for Practice",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Training Period",
+    company_name: "Seebiz limited",
+    icon: css,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2021 - march 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using JavaScript and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "junior Web Developer",
+    company_name: "IT Solz",
+    icon: javascript,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2022 - may 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Bootstrap, jQuery and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full Stack Developer",
+    company_name: "TransCure",
+    icon: reactjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using MERN and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -172,7 +160,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Anas proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +168,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Anas does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +176,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Anas optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,9 +186,159 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Nike Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A sleek and high-performance platform designed for the Nike brand, built using React and Tailwind CSS. This website delivers an immersive and responsive user experience, highlighting Nike's products with a modern and visually captivating interface.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nikeStore,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
+    name: "QR Menu Maker",
+    description:
+      "A sleek and high-performance platform built using MUI and Vite, offering multilingual support and a user-friendly experience. This website features an i18n language translation system that allows users to seamlessly select their preferred language.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: qrMenu,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
+    name: "Forever Ecommerce",
+    description:
+      "A cutting-edge e-commerce platform built using Redux Toolkit Query, Tailwind CSS, Vite, and PNPM. This platform is designed for scalability and performance, offering a seamless shopping experience with modern tools and practices.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "white-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: foreverCommerce,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
+    name: "ZAHN Gold 1",
+    description:
+      "An elegant and high-performance platform designed specifically for the gold industry, built using React, Bootstrap, and Vite. This website offers a seamless and secure browsing experience while showcasing gold products in a visually appealing and user-friendly interface.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "white-text-gradient",
+      },
+      {
+        name: "api",
+        color: "white-text-gradient",
+      },
+    ],
+    image: gold1,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
+    name: "ZAHN Gold 2",
+    description:
+      "An elegant and high-performance platform designed specifically for the gold industry, built using React, Bootstrap, and Vite. This website offers a seamless and secure browsing experience while showcasing gold products in a visually appealing and user-friendly interface..",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "white-text-gradient",
+      },
+      {
+        name: "api",
+        color: "white-text-gradient",
+      },
+    ],
+    image: gold2,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
+    name: "Hustlers Commerce",
+    description:
+      "An advanced e-commerce platform built using Redux Toolkit Query, Next.js, and Material-UI (MUI) to deliver a seamless shopping experience. This platform is designed with modern development practices and features robust state management.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "white-text-gradient",
+      },
+      {
+        name: "api",
+        color: "white-text-gradient",
+      },
+    ],
+    image: hustlerCommerce,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
+    name: "React Dashboard",
+    description:
+      "Create a React dashboard with useful overviews, customizable with drag and toggle widgets, configurable tiles.Dashboards are great way to quickly provide users with an overview of relevant information.",
     tags: [
       {
         name: "react",
@@ -216,12 +354,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/khansaab0331/",
   },
   {
-    name: "Job IT",
+    name: "London Job.Co",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The primary focus being retailing of the above-mentioned brands through flagship boutiques/ mono-brand outlets in  the major cities as well as establishing a distribution network through a dealership network",
     tags: [
       {
         name: "react",
@@ -237,15 +375,16 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://nike-store-gt60qbaaf-khansaab-0331.vercel.app/?vercelToolbarCode=9BKmq4C9_eRdY7C",
   },
   {
-    name: "Trip Guide",
+    name: "Atomize",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Atomize React is a UI framework that helps developers collaborate with designers and build consistent user interfaces.Atomize React helps you in building fully responsive websites and products that match your style.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactJs",
         color: "blue-text-gradient",
       },
       {
@@ -258,8 +397,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/khansaab0331/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };

@@ -1,12 +1,17 @@
-import logo from "./logo.svg";
+import foreverCommerce from "../assets/forever_ecommerce.png";
+import gold1 from "../assets/gold1.png";
+import gold2 from "../assets/gold2.png";
+import hustlerCommerce from "../assets/hustlerCommerce.png";
+import meatSite from "../assets/meat_site.png";
+import nikeStore from "../assets/nike_store.png";
+import qrMenu from "../assets/qr_menu_maker.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
 import close from "./close.svg";
-
+import creator from "./creator.png";
+import github from "./github.png";
+import logo from "./logo.svg";
+import menu from "./menu.svg";
+import mobile from "./mobile.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -18,8 +23,9 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import typescript from "./tech/typescript.png";
+import web from "./web.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,32 +37,39 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
   backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
+  carrent,
   close,
+  creator,
   css,
   docker,
   figma,
+  foreverCommerce,
   git,
+  github,
+  gold1,
+  gold2,
   html,
+  hustlerCommerce,
   javascript,
+  jobit,
+  logo,
+  meatSite,
+  menu,
+  meta,
+  mobile,
   mongodb,
+  nikeStore,
   nodejs,
+  qrMenu,
   reactjs,
   redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
   shopify,
   starbucks,
+  tailwind,
   tesla,
-  carrent,
-  jobit,
+  threejs,
   tripguide,
+  typescript,
+  web,
 };
