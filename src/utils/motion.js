@@ -15,7 +15,6 @@ export const textVariant = (delay) => {
     },
   };
 };
-
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
@@ -36,7 +35,6 @@ export const fadeIn = (direction, type, delay, duration) => {
     },
   };
 };
-
 export const zoomIn = (delay, duration) => {
   return {
     hidden: {
