@@ -16,7 +16,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl lg:col-span-4 sm:col-span-12  md:col-span-6"
+    className="bg-black-200 p-10 rounded-3xl lg:col-span-4 sm:col-span-12 md:col-span-12 w-full xs:col-span-12"
   >
     <p className="text-white font-black text-[48px]">"</p>
 
@@ -54,7 +54,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX}`}>
-        <div className="grid grid-cols-12 gap-7">
+        <div className="grid grid-cols-12 gap-7 w-full">
           {testimonials?.map((testimonial, index) => (
             <FeedbackCard
               key={testimonial.name}
