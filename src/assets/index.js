@@ -7,8 +7,14 @@ import nikeStore from "../assets/nike_store.png";
 import qrMenu from "../assets/qr_menu_maker.png";
 import backend from "./backend.png";
 import close from "./close.svg";
+import meta from "./company/meta.png";
+import shopify from "./company/shopify.png";
+import starbucks from "./company/starbucks.png";
+import tesla from "./company/tesla.png";
 import creator from "./creator.png";
 import github from "./github.png";
+import gpt1 from "./gpt1.png";
+import imdb from "./imdbClone.png";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import mobile from "./mobile.png";
@@ -27,11 +33,6 @@ import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 import web from "./web.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -49,8 +50,10 @@ export {
   github,
   gold1,
   gold2,
+  gpt1,
   html,
   hustlerCommerce,
+  imdb,
   javascript,
   jobit,
   logo,

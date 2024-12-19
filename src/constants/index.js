@@ -8,8 +8,10 @@ import {
   git,
   gold1,
   gold2,
+  gpt1,
   html,
   hustlerCommerce,
+  imdb,
   javascript,
   jobit,
   mobile,
@@ -186,6 +188,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "GPT-3 Website",
+    description:
+      "I have developed a GPT-3 website using modern  technologies including React, Vite. The project showcases a sleek and responsive front-end interface, demonstrating my ability to integrate advanced AI functionalities with user-friendly design.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: gpt1,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
+    name: "IMDB Clone",
+    description:
+      "I have created a  clone of IMDb using the Movie DB API, Vite, and CSS.This project showcases  user interface to display movie  such as popular, top-rated, and upcoming movies.This clone highlights my skills in API integration, modern front-end development.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: imdb,
+    source_code_link: "https://github.com/khansaab0331/",
+  },
+  {
     name: "Nike Store",
     description:
       "A sleek and high-performance platform designed for the Nike brand, built using React and Tailwind CSS. This website delivers an immersive and responsive user experience, highlighting Nike's products with a modern and visually captivating interface.",
@@ -220,7 +264,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mui",
         color: "blue-text-gradient",
       },
     ],
